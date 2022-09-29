@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEvent", "AutoReset
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{D7A15042-BB99-4053-8850-E55FB823B349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A15042-BB99-4053-8850-E55FB823B349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A15042-BB99-4053-8850-E55FB823B349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A15042-BB99-4053-8850-E55FB823B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A15042-BB99-4053-8850-E55FB823B349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
