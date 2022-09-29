@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        private static object _locker = new object();
+
         static void Main(string[] args)
         {
             for (int i = 0; i < 5; i++)
@@ -15,9 +17,12 @@
 
         public static void DoWork()
         {
-            Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} starting..");
-            Thread.Sleep(2000);
-            Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} completed..");
+            lock (_locker)
+            {
+                Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} starting..");
+                Thread.Sleep(2000);
+                Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} completed..");
+            }
 
         }
     }
