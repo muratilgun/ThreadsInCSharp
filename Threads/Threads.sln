@@ -5,15 +5,17 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lock", "Lock\Lock.csproj", "{BF0DDA5E-D467-4322-91B3-F4A15CDF6C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{7D4AE692-DF82-46D9-B726-11911F31EF66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitor", "Monitor\Monitor.csproj", "{7D4AE692-DF82-46D9-B726-11911F31EF66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEvent", "ManualResetEvent\ManualResetEvent.csproj", "{4B653D79-20E1-4883-8C7F-6630F099AAC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManualResetEvent", "ManualResetEvent\ManualResetEvent.csproj", "{4B653D79-20E1-4883-8C7F-6630F099AAC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{07B01932-ABFF-4B1E-AFC8-7CC980ECA802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{07B01932-ABFF-4B1E-AFC8-7CC980ECA802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{B0FCEE7A-73EB-4D9D-B84B-19BAC599B4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{D7A15042-BB99-4053-8850-E55FB823B349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore", "Semaphore\Semaphore.csproj", "{D7A15042-BB99-4053-8850-E55FB823B349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCompletionSource", "Tasks\TaskCompletionSource\TaskCompletionSource.csproj", "{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D7A15042-BB99-4053-8850-E55FB823B349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A15042-BB99-4053-8850-E55FB823B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A15042-BB99-4053-8850-E55FB823B349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
