@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore", "Semaphore\Semaphore.csproj", "{D7A15042-BB99-4053-8850-E55FB823B349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCompletionSource", "Tasks\TaskCompletionSource\TaskCompletionSource.csproj", "{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCompletionSource", "Tasks\TaskCompletionSource\TaskCompletionSource.csproj", "{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinThread", "JoinThread\JoinThread.csproj", "{E4A19D8F-17F7-4C91-99B7-5C6B34D174F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2903D7-C5E2-4DF2-8BA9-1E4A64F0BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A19D8F-17F7-4C91-99B7-5C6B34D174F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A19D8F-17F7-4C91-99B7-5C6B34D174F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A19D8F-17F7-4C91-99B7-5C6B34D174F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A19D8F-17F7-4C91-99B7-5C6B34D174F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
